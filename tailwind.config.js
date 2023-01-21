@@ -12,6 +12,7 @@ module.exports = {
       "neutral-darkest": "#4F5162",
       "neutral-black": "#23263B",
       "xenon-base": "#003DFF",
+      "xenon-dark": "#0738D2",
       "black-base": "#23263B",
       "success-dark": "#06AF87",
       "success-light": "#B9FFEE",
@@ -28,6 +29,7 @@ module.exports = {
       link: "#003DFF",
       "neutral-overlay-light": "#A7A8B1",
       "neutral-overlay-dark": "#7B7D89",
+      outline: "#89D9D3",
     },
     fontFamily: {
       sans: ["Inter", "sans-serif"],
