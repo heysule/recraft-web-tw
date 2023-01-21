@@ -26,6 +26,12 @@ module.exports = {
       "secondary-dark": "#91929D",
       "secondary-light": "#F4F4F5",
       link: "#003DFF",
+      "neutral-overlay-light": "#A7A8B1",
+      "neutral-overlay-dark": "#7B7D89",
+    },
+    fontFamily: {
+      sans: ["Inter", "sans-serif"],
+      mono: ["Roboto Mono", "monospace"],
     },
     extend: {},
   },
