@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './common/components/navigation/navigation.component';
 import { ProductOverviewComponent } from './features/products/product-overview/product-overview.component';
 import { ProductListComponent } from './features/products/product-list/product-list.component';
+import { CategoryFiltersComponent } from './features/products/category-filters/category-filters.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ProductListComponent } from './features/products/product-list/product-l
     NavigationComponent,
     ProductOverviewComponent,
     ProductListComponent,
+    CategoryFiltersComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
