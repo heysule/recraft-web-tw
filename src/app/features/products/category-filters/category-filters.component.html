@@ -573,6 +573,7 @@
               aria-orientation="vertical"
               aria-labelledby="menu-button"
               tabindex="-1"
+              style="display: none"
             >
               <div class="py-1" role="none">
                 <!--
@@ -1127,7 +1128,7 @@
           <!-- Product grid -->
           <div class="lg:col-span-3">
             <!-- Replace with your content -->
-            <app-product-list></app-product-list>
+            <app-product-list [products]="products"></app-product-list>
             <!-- /End replace -->
           </div>
         </div>
