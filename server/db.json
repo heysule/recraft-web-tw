@@ -1,12 +1,12 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "permalink": "mens-skinny-jeans",
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/mens-jeans-skinny.avif",
+      "mainImage": "../../../assets/rest-data/images/mens-jeans-skinny.avif",
       "displayName": "The Recraft Skinny Jeans",
       "genderedDisplayName": "Men’s Skinny Jeans",
       "price": "1500.0",
@@ -54,23 +54,23 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-skinny.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-skinny.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-skinny-2.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-skinny-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-skinny-3.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-skinny-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-skinny-4.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-skinny-4.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-skinny-5.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-skinny-5.avif",
             "tag": null
           }
         ]
@@ -253,12 +253,12 @@
       "productSku": "M-BTM-DNM-SLVG-STRT-RNS"
     },
     {
-      "id": 2,
+      "id": "2",
       "permalink": "mens-athletics-jeans",
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/mens-jeans-athletics.avif",
+      "mainImage": "../../../assets/rest-data/images/mens-jeans-athletics.avif",
       "displayName": "The Recraft Athletics Jeans",
       "genderedDisplayName": "Men’s Athletics Jeans",
       "price": "1500.0",
@@ -306,23 +306,23 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-athletics.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-athletics.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-athleitics-2.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-athleitics-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-athletics-3.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-athletics-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-athletics-4.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-athletics-4.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-athletics-5.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-athletics-5.avif",
             "tag": null
           }
         ]
@@ -505,12 +505,12 @@
       "productSku": "M-BTM-DNM-SLVG-STRT-RNS"
     },
     {
-      "id": 3,
+      "id": "3",
       "permalink": "mens-relaxed-jeans",
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/mens-jeans-relaxed.avif",
+      "mainImage": "../../../assets/rest-data/images/mens-jeans-relaxed.avif",
       "displayName": "The Recraft Relaxed Jeans",
       "genderedDisplayName": "Men’s Relaxed Jeans",
       "price": "1500.0",
@@ -558,23 +558,23 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-relaxed.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-relaxed.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-relaxed-2.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-relaxed-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-relaxed-3.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-relaxed-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-relaxed-4.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-relaxed-4.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-relaxed-5.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-relaxed-5.avif",
             "tag": null
           }
         ]
@@ -757,12 +757,12 @@
       "productSku": "M-BTM-DNM-SLVG-STRT-RNS"
     },
     {
-      "id": 4,
+      "id": "4",
       "permalink": "mens-slim-jeans",
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/mens-jeans-slim.avif",
+      "mainImage": "../../../assets/rest-data/images/mens-jeans-slim.avif",
       "displayName": "The Recraft Slim Jeans",
       "genderedDisplayName": "Men’s Slim Jeans",
       "price": "1500.0",
@@ -810,19 +810,19 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-slim.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-slim.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-slim-2.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-slim-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-slim-3.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-slim-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-slim-4.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-slim-4.avif",
             "tag": null
           }
         ]
@@ -1005,12 +1005,12 @@
       "productSku": "M-BTM-DNM-SLVG-STRT-RNS"
     },
     {
-      "id": 5,
+      "id": "5",
       "permalink": "mens-straight-jeans",
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/mens-jeans-straight.avif",
+      "mainImage": "../../../assets/rest-data/images/mens-jeans-straight.avif",
       "displayName": "The Recraft Straight Jeans",
       "genderedDisplayName": "Men’s Straight Jeans",
       "price": "1500.0",
@@ -1058,19 +1058,19 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-straight.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-straight.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-straight-2.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-straight-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-straight-3.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-straight-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/mens-jeans-straight-4.avif",
+            "src": "../../../assets/rest-data/images/mens-jeans-straight-4.avif",
             "tag": null
           }
         ]
@@ -1258,7 +1258,7 @@
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/womens-jeans-curvy.avif",
+      "mainImage": "../../../assets/rest-data/images/womens-jeans-curvy.avif",
       "displayName": "The Recraft Curvy Jeans",
       "genderedDisplayName": "Women’s Curvy Jeans",
       "price": "1500.0",
@@ -1306,19 +1306,19 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-curvy.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-curvy.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-curvy-2.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-curvy-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-curvy-3.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-curvy-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-curvy-4.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-curvy-4.avif",
             "tag": null
           }
         ]
@@ -1506,7 +1506,7 @@
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/womens-jeans-skinny.avif",
+      "mainImage": "../../../assets/rest-data/images/womens-jeans-skinny.avif",
       "displayName": "The Recraft Skinny Jeans",
       "genderedDisplayName": "Women’s Skinny Jeans",
       "price": "1500.0",
@@ -1554,23 +1554,23 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-skinny.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-skinny.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-skinny-2.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-skinny-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-skinny-3.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-skinny-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-skinny-4.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-skinny-4.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-skinny-5.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-skinny-5.avif",
             "tag": null
           }
         ]
@@ -1758,7 +1758,7 @@
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/womens-jeans-relaxed.avif",
+      "mainImage": "../../../assets/rest-data/images/womens-jeans-relaxed.avif",
       "displayName": "The Recraft Relaxed Jeans",
       "genderedDisplayName": "Women’s Relaxed Jeans",
       "price": "1500.0",
@@ -1806,23 +1806,23 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-relaxed.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-relaxed.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-relaxed-2.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-relaxed-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-relaxed-3.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-relaxed-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-relaxed-4.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-relaxed-4.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-relaxed-5.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-relaxed-5.avif",
             "tag": null
           }
         ]
@@ -2010,7 +2010,7 @@
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/womens-jeans-straight.avif",
+      "mainImage": "../../../assets/rest-data/images/womens-jeans-straight.avif",
       "displayName": "The Recraft Straight Jeans",
       "genderedDisplayName": "Women’s Straight Jeans",
       "price": "1500.0",
@@ -2058,27 +2058,27 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-straight.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-straight.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-straight-2.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-straight-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-straight-3.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-straight-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-straight-4.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-straight-4.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-straight-5.jpeg",
+            "src": "../../../assets/rest-data/images/womens-jeans-straight-5.jpeg",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-straight-6.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-straight-6.avif",
             "tag": null
           }
         ]
@@ -2266,7 +2266,7 @@
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/womens-jeans-wide.avif",
+      "mainImage": "../../../assets/rest-data/images/womens-jeans-wide.avif",
       "displayName": "The Recraft Wide Jeans",
       "genderedDisplayName": "Women’s Wide Jeans",
       "price": "1500.0",
@@ -2314,27 +2314,27 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-wide.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-wide.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-wide-2.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-wide-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-wide-3.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-wide-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-wide-4.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-wide-4.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-wide-5.jpeg",
+            "src": "../../../assets/rest-data/images/womens-jeans-wide-5.jpeg",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/womens-jeans-wide-6.avif",
+            "src": "../../../assets/rest-data/images/womens-jeans-wide-6.avif",
             "tag": null
           }
         ]
@@ -2522,7 +2522,7 @@
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/accessories-bandana.avif",
+      "mainImage": "../../../assets/rest-data/images/accessories-bandana.avif",
       "displayName": "The Recraft Bandana",
       "genderedDisplayName": "The Recraft Bandana",
       "price": "1500.0",
@@ -2570,19 +2570,19 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/accessories-bandana.jpeg",
+            "src": "../../../assets/rest-data/images/accessories-bandana.jpeg",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-bandana-2.avif",
+            "src": "../../../assets/rest-data/images/accessories-bandana-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-bandana-3.jpeg",
+            "src": "../../../assets/rest-data/images/accessories-bandana-3.jpeg",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-bandana-4.jpeg",
+            "src": "../../../assets/rest-data/images/accessories-bandana-4.jpeg",
             "tag": null
           }
         ]
@@ -2770,7 +2770,7 @@
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/accessories-scarf.avif",
+      "mainImage": "../../../assets/rest-data/images/accessories-scarf.avif",
       "displayName": "The Recraft Scarf",
       "genderedDisplayName": "The Recraft Scarf",
       "price": "1500.0",
@@ -2818,19 +2818,19 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/accessories-scarf.jpeg",
+            "src": "../../../assets/rest-data/images/accessories-scarf.jpeg",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-scarf-2.avif",
+            "src": "../../../assets/rest-data/images/accessories-scarf-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-scarf-3.jpeg",
+            "src": "../../../assets/rest-data/images/accessories-scarf-3.jpeg",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-scarf-4.jpeg",
+            "src": "../../../assets/rest-data/images/accessories-scarf-4.jpeg",
             "tag": null
           }
         ]
@@ -3018,7 +3018,7 @@
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/accessories-scarf.avif",
+      "mainImage": "../../../assets/rest-data/images/accessories-scarf.avif",
       "displayName": "The Recraft Scarf",
       "genderedDisplayName": "The Recraft Scarf",
       "price": "1500.0",
@@ -3066,19 +3066,19 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/accessories-scarf.jpeg",
+            "src": "../../../assets/rest-data/images/accessories-scarf.jpeg",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-scarf-2.avif",
+            "src": "../../../assets/rest-data/images/accessories-scarf-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-scarf-3.jpeg",
+            "src": "../../../assets/rest-data/images/accessories-scarf-3.jpeg",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-scarf-4.jpeg",
+            "src": "../../../assets/rest-data/images/accessories-scarf-4.jpeg",
             "tag": null
           }
         ]
@@ -3262,11 +3262,11 @@
     },
     {
       "id": "14",
-      "permalink": "accessories-mask",
+      "permalink": "accessories-face-mask",
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/accessories-mask.avif",
+      "mainImage": "../../../assets/rest-data/images/accessories-face-mask.webp",
       "displayName": "The Recraft Face Mask",
       "genderedDisplayName": "The Recraft Face Mask",
       "price": "500.0",
@@ -3314,15 +3314,15 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/accessories-face-mask.webp",
+            "src": "../../../assets/rest-data/images/accessories-face-mask.webp",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-face-mask-2.webp",
+            "src": "../../../assets/rest-data/images/accessories-face-mask-2.webp",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-face-mask-3.webp",
+            "src": "../../../assets/rest-data/images/accessories-face-mask-3.webp",
             "tag": null
           }
         ]
@@ -3510,7 +3510,7 @@
       "orderableState": "shippable",
       "productFits": [],
       "retired": false,
-      "mainImage": "../src/assets/rest-data/images/accessories-tote.avif",
+      "mainImage": "../../../assets/rest-data/images/accessories-tote.avif",
       "displayName": "The Recraft Tote",
       "genderedDisplayName": "The Recraft Tote",
       "price": "2000.0",
@@ -3558,23 +3558,23 @@
         "portrait": [],
         "square": [
           {
-            "src": "../src/assets/rest-data/images/accessories-tote.avif",
+            "src": "../../../assets/rest-data/images/accessories-tote.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-tote-2.avif",
+            "src": "../../../assets/rest-data/images/accessories-tote-2.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-tote-3.avif",
+            "src": "../../../assets/rest-data/images/accessories-tote-3.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-tote-4.avif",
+            "src": "../../../assets/rest-data/images/accessories-tote-4.avif",
             "tag": null
           },
           {
-            "src": "../src/assets/rest-data/images/accessories-tote-5.avif",
+            "src": "../../../assets/rest-data/images/accessories-tote-5.avif",
             "tag": null
           }
         ]
