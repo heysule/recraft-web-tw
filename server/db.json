@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "permalink": "mens-skinny-jeans",
       "orderableState": "shippable",
       "productFits": [],
@@ -253,7 +253,7 @@
       "productSku": "M-BTM-DNM-SLVG-STRT-RNS"
     },
     {
-      "id": 2,
+      "id": "2",
       "permalink": "mens-athletics-jeans",
       "orderableState": "shippable",
       "productFits": [],
@@ -505,7 +505,7 @@
       "productSku": "M-BTM-DNM-SLVG-STRT-RNS"
     },
     {
-      "id": 3,
+      "id": "3",
       "permalink": "mens-relaxed-jeans",
       "orderableState": "shippable",
       "productFits": [],
@@ -757,7 +757,7 @@
       "productSku": "M-BTM-DNM-SLVG-STRT-RNS"
     },
     {
-      "id": 4,
+      "id": "4",
       "permalink": "mens-slim-jeans",
       "orderableState": "shippable",
       "productFits": [],
@@ -1005,7 +1005,7 @@
       "productSku": "M-BTM-DNM-SLVG-STRT-RNS"
     },
     {
-      "id": 5,
+      "id": "5",
       "permalink": "mens-straight-jeans",
       "orderableState": "shippable",
       "productFits": [],
