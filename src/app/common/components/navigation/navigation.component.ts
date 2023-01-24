@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { CartApiService } from '../../services/network/cart-api.service';
 
 @Component({
   selector: 'app-navigation',
@@ -8,7 +9,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 export class NavigationComponent implements OnInit {
   //TODO: Check on why mobile nav doesnt close when screenwidth changes
   //TODO: Finish on flyover menus
-  constructor() {}
+  constructor(private cartApiService: CartApiService) {}
 
   ngOnInit(): void {
     this.screenWidth = window.innerWidth;
@@ -36,5 +37,9 @@ export class NavigationComponent implements OnInit {
     if (this.screenWidth > 399) {
       this.showMobileMenu = false;
     }
+  }
+
+  getCartCount(): number {
+    return this.cartApiService.getCartCount();
   }
 }
