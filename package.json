@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm run serve:all",
-    "serve:web": "ng serve --port 4300 --open",
-    "serve:api": "json-server server/db.json",
-    "serve:all": "concurrently \"npm run serve:api\" \"npm run serve:web\"",
+    "start": "npm serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
