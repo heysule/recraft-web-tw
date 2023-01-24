@@ -9,11 +9,13 @@ import { ProductListComponent } from './features/products/product-list/product-l
 import { CategoryFiltersComponent } from './features/products/category-filters/category-filters.component';
 import { CartComponent } from './features/cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './features/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
+    HomeComponent,
     ProductOverviewComponent,
     ProductListComponent,
     CategoryFiltersComponent,
