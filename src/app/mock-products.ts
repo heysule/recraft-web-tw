@@ -168,8 +168,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -410,8 +410,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -652,8 +652,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -890,8 +890,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -1128,8 +1128,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -1366,8 +1366,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -1608,8 +1608,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -1850,8 +1850,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -2096,8 +2096,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -2342,8 +2342,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -2580,8 +2580,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -2818,8 +2818,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -3056,8 +3056,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -3290,8 +3290,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
@@ -3532,8 +3532,8 @@ export const PRODUCTS: Product[] = [
     relatedProductLink: '',
     preLaunchPolicy: false,
     canShowReviews: true,
-    reviewCount: 300,
-    reviewRating: 4.5,
+    reviewCount: 0,
+    reviewRating: 0,
     bodySizeChart: {
       content: [
         ['DENIM SIZE', 'ALPHA SIZE', 'Body Measurement: Waist'],
