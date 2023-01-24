@@ -7,7 +7,7 @@ import { NavigationComponent } from './common/components/navigation/navigation.c
 import { ProductOverviewComponent } from './features/products/product-overview/product-overview.component';
 import { ProductListComponent } from './features/products/product-list/product-list.component';
 import { CategoryFiltersComponent } from './features/products/category-filters/category-filters.component';
-import { CartComponent } from './features/cart/cart.component';
+import { CartComponent } from './features/products/cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './features/home/home.component';
 

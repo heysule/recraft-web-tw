@@ -1,27 +1,39 @@
 <div class="bg-neutral-white">
-  <div
-    class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-  >
-    <a
-      [routerLink]="['/products/', product.id]"
-      class="group"
-      *ngFor="let product of products"
+  <div class="mx-auto max-w-2xl py-4 px-4 sm:py-6 sm:px-6 lg:max-w-7xl lg:px-6">
+    <div
+      class="flex items-baseline justify-between border-b border-neutral-light pt-10 pb-6 md:pt-8"
     >
-      <div
-        class="aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 w-full overflow-hidden bg-neutral-light"
+      <h1
+        class="text-xl font-bold tracking-tight text-primary-dark md:text-4xl"
       >
-        <img
-          [src]="product.mainImage"
-          [alt]="product.displayName"
-          class="h-full w-full object-cover object-center group-hover:opacity-75"
-        />
-      </div>
-      <h3 class="mt-4 text-sm text-neutral-darkest">
-        {{ product.displayName }}
-      </h3>
-      <p class="mt-1 text-lg font-medium text-primary-dark">
-        {{ product.price | currency }}
-      </p>
-    </a>
+        Collections
+      </h1>
+    </div>
+
+    <div
+      class="mt-8 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
+    >
+      <a
+        [routerLink]="['/products/', product.id]"
+        class="group"
+        *ngFor="let product of products"
+      >
+        <div
+          class="aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 w-full overflow-hidden bg-neutral-light"
+        >
+          <img
+            [src]="product.mainImage"
+            [alt]="product.displayName"
+            class="h-full w-full object-cover object-center group-hover:opacity-75"
+          />
+        </div>
+        <h3 class="mt-4 text-sm text-neutral-darkest">
+          {{ product.displayName }}
+        </h3>
+        <p class="mt-1 text-lg font-medium text-primary-dark">
+          {{ product.price | currency : "KES " }}
+        </p>
+      </a>
+    </div>
   </div>
 </div>

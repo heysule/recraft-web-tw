@@ -7,8 +7,8 @@
       >
         <li>
           <div class="flex items-center">
-            <a href="#" class="mr-2 text-sm font-medium text-neutral-dark"
-              >Men</a
+            <a routerLink="/" class="mr-2 text-sm font-medium text-neutral-dark"
+              >Home</a
             >
             <svg
               width="16"
@@ -26,8 +26,10 @@
 
         <li>
           <div class="flex items-center">
-            <a href="#" class="mr-2 text-sm font-medium text-neutral-dark"
-              >Clothing</a
+            <a
+              routerLink="/products"
+              class="mr-2 text-sm font-medium text-neutral-dark"
+              >Collections</a
             >
             <svg
               width="16"
@@ -48,7 +50,7 @@
             href="#"
             aria-current="page"
             class="hover:text-gray-600 font-medium text-neutral-dark"
-            >Basic Tee 6-Pack</a
+            >{{ product?.displayName }}</a
           >
         </li>
       </ol>
@@ -108,7 +110,7 @@
       <div class="mt-4 lg:row-span-3 lg:mt-0">
         <h2 class="sr-only">Product information</h2>
         <p class="text-3xl tracking-tight text-primary-dark">
-          {{ product?.price | currency }}
+          {{ product?.price | currency : "KES " }}
         </p>
 
         <!-- Reviews -->
@@ -122,7 +124,7 @@
                 Active: "text-gray-900", Default: "text-gray-200"
               -->
               <svg
-                class="text-gray-900 h-5 w-5 flex-shrink-0"
+                class="h-5 w-5 flex-shrink-0 text-neutral-dark"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -137,7 +139,7 @@
 
               <!-- Heroicon name: mini/star -->
               <svg
-                class="text-gray-900 h-5 w-5 flex-shrink-0"
+                class="h-5 w-5 flex-shrink-0 text-neutral-dark"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -152,7 +154,7 @@
 
               <!-- Heroicon name: mini/star -->
               <svg
-                class="text-gray-900 h-5 w-5 flex-shrink-0"
+                class="h-5 w-5 flex-shrink-0 text-neutral-dark"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -167,7 +169,7 @@
 
               <!-- Heroicon name: mini/star -->
               <svg
-                class="text-gray-900 h-5 w-5 flex-shrink-0"
+                class="h-5 w-5 flex-shrink-0 text-neutral-dark"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -182,7 +184,7 @@
 
               <!-- Heroicon name: mini/star -->
               <svg
-                class="text-gray-200 h-5 w-5 flex-shrink-0"
+                class="h-5 w-5 flex-shrink-0 text-neutral-dark"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -206,7 +208,7 @@
 
         <form class="mt-10">
           <!-- Colors -->
-          <div>
+          <div style="display: none">
             <h3 class="text-sm font-medium text-primary-dark">Color</h3>
 
             <fieldset class="mt-4">
