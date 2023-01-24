@@ -11,6 +11,7 @@ import { CartComponent } from './features/products/cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './features/home/home.component';
 import { CheckoutComponent } from './features/products/checkout/checkout.component';
+import { NotFoundComponent } from './common/components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { CheckoutComponent } from './features/products/checkout/checkout.compone
     CategoryFiltersComponent,
     CartComponent,
     CheckoutComponent,
+    NotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

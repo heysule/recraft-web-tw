@@ -5,6 +5,7 @@ import { HomeComponent } from './features/home/home.component';
 import { ProductListComponent } from './features/products/product-list/product-list.component';
 import { CartComponent } from './features/products/cart/cart.component';
 import { CheckoutComponent } from './features/products/checkout/checkout.component';
+import { NotFoundComponent } from './common/components/not-found/not-found.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'products/:id', component: ProductOverviewComponent },
   { path: 'cart', component: CartComponent },
   { path: 'checkout', component: CheckoutComponent },
+  { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({
