@@ -16,7 +16,7 @@ export class ProductListComponent implements OnInit {
 
   products: Product[] = [];
 
-  getProducts() {
+  getProducts(): void {
     this.productApiService
       .getProducts()
       .subscribe((result) => (this.products = result));
