@@ -13,10 +13,13 @@
             role="list"
             class="divide-neutral-light border-b border-neutral-light"
           >
-            <li class="flex border-t border-neutral-light py-6">
+            <li
+              class="flex border-t border-neutral-light py-6"
+              *ngFor="let cartItem of cart"
+            >
               <div class="h-24 w-24 flex-shrink-0 overflow-hidden">
                 <img
-                  src="https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-01.jpg"
+                  [src]="cartItem.image"
                   alt="Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt."
                   class="h-full w-full object-cover object-center"
                 />
@@ -28,17 +31,19 @@
                     class="flex justify-between text-base font-medium text-primary-dark"
                   >
                     <h3>
-                      <a href="#">Throwback Hip Bag</a>
+                      <a href="#">{{ cartItem.title }}</a>
                     </h3>
-                    <p class="ml-4">$90.00</p>
+                    <p class="ml-4">{{ cartItem.total }}</p>
                   </div>
-                  <p class="mt-1 text-sm text-neutral-darkest">Salmon</p>
                 </div>
                 <div class="flex flex-1 items-end justify-between text-sm">
-                  <p class="text-neutral-darkest">Qty 1</p>
+                  <p class="text-neutral-darkest">
+                    Qty {{ cartItem.quantity }}
+                  </p>
 
                   <div class="flex">
                     <button
+                      (click)="removeFromCart(cartItem)"
                       type="button"
                       class="hover:text-indigo-500 font-medium text-neutral-darkest"
                     >
@@ -48,44 +53,6 @@
                 </div>
               </div>
             </li>
-
-            <li class="flex border-t border-neutral-light py-6">
-              <div class="h-24 w-24 flex-shrink-0 overflow-hidden">
-                <img
-                  src="https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg"
-                  alt="Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch."
-                  class="h-full w-full object-cover object-center"
-                />
-              </div>
-
-              <div class="ml-4 flex flex-1 flex-col">
-                <div>
-                  <div
-                    class="flex justify-between text-base font-medium text-primary-dark"
-                  >
-                    <h3>
-                      <a href="#">Medium Stuff Satchel</a>
-                    </h3>
-                    <p class="ml-4">$32.00</p>
-                  </div>
-                  <p class="mt-1 text-sm text-neutral-darkest">Blue</p>
-                </div>
-                <div class="flex flex-1 items-end justify-between text-sm">
-                  <p class="text-neutral-darkest">Qty 1</p>
-
-                  <div class="flex">
-                    <button
-                      type="button"
-                      class="hover:text-indigo-500 font-medium text-neutral-darkest"
-                    >
-                      Remove
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            <!-- More products... -->
           </ul>
         </div>
       </div>
@@ -109,7 +76,7 @@
                 <dd
                   class="mt-1 ml-auto text-sm font-medium text-primary-dark sm:col-span-2 sm:mt-0"
                 >
-                  $99.00
+                  {{ getCartTotal() | currency : "KES " }}
                 </dd>
               </div>
               <div
@@ -121,7 +88,7 @@
                 <dd
                   class="mt-1 ml-auto text-sm font-medium text-primary-dark sm:col-span-2 sm:mt-0"
                 >
-                  $5.00
+                  {{ 200.0 | currency : "KES " }}
                 </dd>
               </div>
               <div
@@ -133,7 +100,7 @@
                 <dd
                   class="mt-1 ml-auto text-sm font-medium text-primary-dark sm:col-span-2 sm:mt-0"
                 >
-                  $8.32
+                  {{ 80.32 | currency : "KES " }}
                 </dd>
               </div>
               <div class="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -143,7 +110,12 @@
                 <dd
                   class="mt-1 ml-auto font-medium leading-6 text-primary-dark sm:col-span-2 sm:mt-0"
                 >
-                  <h4>$112.32</h4>
+                  <h4>
+                    {{
+                      shippingEstimate + taxEstimate + getCartTotal()
+                        | currency : "KES "
+                    }}
+                  </h4>
                 </dd>
               </div>
             </dl>
