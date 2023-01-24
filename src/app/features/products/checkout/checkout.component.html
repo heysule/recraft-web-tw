@@ -1,0 +1,209 @@
+<div class="bg-neutral-white">
+  <!-- Background color split screen for large screens -->
+  <!-- <div class="fixed top-0 left-0 hidden h-full w-1/2 bg-neutral-white lg:block" aria-hidden="true"></div>
+  <div class="fixed top-0 right-0 hidden h-full w-1/2 bg-neutral-light lg:block" aria-hidden="true"></div> -->
+
+  <div
+    class="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 bg-neutral-lightest lg:grid-cols-2 lg:px-6 lg:pt-16"
+  >
+    <h1 class="sr-only">Checkout</h1>
+
+    <section
+      aria-labelledby="summary-heading"
+      class="bg-neutral-light py-12 text-primary-dark md:px-10 lg:col-start-2 lg:row-start-1 lg:mx-auto lg:w-full lg:max-w-lg lg:bg-transparent lg:px-0 lg:pt-0 lg:pb-24"
+    >
+      <div class="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
+        <h2 id="summary-heading" class="sr-only">Order summary</h2>
+
+        <dl>
+          <dt class="text-sm font-medium">Amount due</dt>
+          <dd class="text-white mt-1 text-3xl font-bold tracking-tight">
+            {{ orderTotal || 0 + tax + shipping | currency : "KES " }}
+          </dd>
+        </dl>
+
+        <dl
+          class="space-y-6 border-t border-neutral-white border-opacity-10 pt-6 text-sm font-medium"
+        >
+          <div class="flex items-center justify-between">
+            <dt>Subtotal</dt>
+            <dd>{{ orderTotal | currency : "KES " }}</dd>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <dt>Shipping</dt>
+            <dd>{{ shipping | currency : "KES " }}</dd>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <dt>Taxes</dt>
+            <dd>{{ tax | currency : "KES " }}</dd>
+          </div>
+
+          <div
+            class="flex items-center justify-between border-t border-neutral-white border-opacity-10 pt-6 text-primary-dark"
+          >
+            <dt class="text-base">Total</dt>
+            <dd class="text-base">
+              {{ orderTotal || 0 + tax + shipping | currency : "KES " }}
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section
+      aria-labelledby="payment-and-shipping-heading"
+      class="py-16 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:w-full lg:max-w-lg lg:pt-0 lg:pb-24"
+    >
+      <h2 id="payment-and-shipping-heading" class="sr-only">
+        Payment and shipping details
+      </h2>
+
+      <form>
+        <div class="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
+          <div>
+            <h3
+              id="contact-info-heading"
+              class="text-lg font-medium text-primary-dark"
+            >
+              Contact information
+            </h3>
+
+            <div class="mt-6">
+              <label
+                for="email-address"
+                class="block text-sm font-medium text-neutral-darkest"
+                >Email address</label
+              >
+              <div class="mt-1">
+                <input
+                  type="email"
+                  id="email-address"
+                  name="email-address"
+                  autocomplete="email"
+                  class="block h-12 w-full border-neutral-darkest focus:border-outline focus:ring-outline sm:text-sm"
+                />
+              </div>
+            </div>
+
+            <div class="mt-6">
+              <label
+                for="email-address"
+                class="block text-sm font-medium text-neutral-darkest"
+                >Phone number</label
+              >
+              <div class="mt-1">
+                <input
+                  type="email"
+                  id="email-address"
+                  name="email-address"
+                  autocomplete="email"
+                  class="block h-12 w-full border-neutral-darkest focus:border-outline focus:ring-outline sm:text-sm"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-10">
+            <h3 class="text-lg font-medium text-primary-dark">
+              Shipping address
+            </h3>
+
+            <div class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-3">
+              <div class="sm:col-span-3">
+                <label
+                  for="address"
+                  class="block text-sm font-medium text-neutral-darkest"
+                  >Address</label
+                >
+                <div class="mt-1">
+                  <input
+                    type="text"
+                    id="address"
+                    name="address"
+                    autocomplete="street-address"
+                    class="block h-12 w-full border-neutral-darkest focus:border-outline focus:ring-outline sm:text-sm"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label
+                  for="city"
+                  class="block text-sm font-medium text-primary-dark"
+                  >City</label
+                >
+                <div class="mt-1">
+                  <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    autocomplete="address-level2"
+                    class="block h-12 w-full border-neutral-darkest focus:border-outline focus:ring-outline sm:text-sm"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label
+                  for="region"
+                  class="block text-sm font-medium text-primary-dark"
+                  >State / Province</label
+                >
+                <div class="mt-1">
+                  <input
+                    type="text"
+                    id="region"
+                    name="region"
+                    autocomplete="address-level1"
+                    class="block h-12 w-full border-neutral-darkest focus:border-outline focus:ring-outline sm:text-sm"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label
+                  for="postal-code"
+                  class="block text-sm font-medium text-primary-dark"
+                  >Postal code</label
+                >
+                <div class="mt-1">
+                  <input
+                    type="text"
+                    id="postal-code"
+                    name="postal-code"
+                    autocomplete="postal-code"
+                    class="block h-12 w-full border-neutral-darkest focus:border-outline focus:ring-outline sm:text-sm"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="mt-10">
+            <h3 class="text-lg font-medium text-primary-dark">Billing information</h3>
+
+            <div class="mt-6 flex items-center">
+              <input id="same-as-shipping" name="same-as-shipping" type="checkbox" checked class="h-4 w-4 border-neutral-darkest text-primary-dark focus:ring-outline">
+              <div class="ml-2">
+                <label for="same-as-shipping" class="text-sm font-medium text-primary-dark">Same as shipping information</label>
+              </div>
+            </div>
+          </div> -->
+
+          <div
+            class="mt-10 flex justify-end border-t border-neutral-light pt-6"
+          >
+            <button
+              type="submit"
+              class="border border-transparent bg-neutral-black py-2 px-4 text-sm font-medium text-neutral-white hover:bg-neutral-darkest focus:outline-none focus:ring-2 focus:ring-outline focus:ring-offset-2 focus:ring-offset-outline"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </div>
+</div>

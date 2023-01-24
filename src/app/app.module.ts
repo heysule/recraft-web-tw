@@ -10,6 +10,7 @@ import { CategoryFiltersComponent } from './features/products/category-filters/c
 import { CartComponent } from './features/products/cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './features/home/home.component';
+import { CheckoutComponent } from './features/products/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HomeComponent } from './features/home/home.component';
     ProductListComponent,
     CategoryFiltersComponent,
     CartComponent,
+    CheckoutComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
